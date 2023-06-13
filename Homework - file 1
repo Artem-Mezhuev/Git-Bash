@@ -1,0 +1,117 @@
+1) Define the name of the folder you are in
+mezhuev@MacBook-Pro-Mezhuev ~/Desktop/home_work/git_training/test (main)
+$ pwd
+/c/Users/Desktop/home_work/git_training/test
+
+2) Create a folder named test1
+mezhuev@MacBook-Pro-Mezhuev ~/Desktop/home_work/git_training/test (main)
+$ mkdir test1
+
+3) Go to the test1 folder
+mezhuev@MacBook-Pro-Mezhuev ~/Desktop/home_work/git_training/test (main)
+$ cd test1
+
+4) Create file 1,2 and 3 inside the test1 directory
+mezhuev@MacBook-Pro-Mezhuev ~/Desktop/home_work/git_training/test/test1 (main)
+$ touch file1.txt file2.txt file3.txt
+
+5) Check the contents of the test1 directory
+mezhuev@MacBook-Pro-Mezhuev ~/Desktop/home_work/git_training/test/test1 (main)
+$ ls
+file1.txt  file2.txt  file3.txt
+
+6) Create a test2 folder inside the home directory
+mezhuev@MacBook-Pro-Mezhuev ~/Desktop/home_work/git_training/test/test1 (main)
+$ cd ..
+
+mezhuev@MacBook-Pro-Mezhuev ~/Desktop/home_work/git_training/test (main)
+$ mkdir test2
+
+7) Remove the test2 folder
+mezhuev@MacBook-Pro-Mezhuev ~/Desktop/home_work/git_training/test (main)
+$ rmdir test2
+
+8) Delete File 2
+mezhuev@MacBook-Pro-Mezhuev ~/Desktop/home_work/git_training/test (main)
+$ cd test1
+
+mezhuev@MacBook-Pro-Mezhuev ~/Desktop/home_work/git_training/test/test1 (main)
+$ rm file2.txt
+
+9) Create a test3 folder and add two files to it
+mezhuev@MacBook-Pro-Mezhuev ~/Desktop/home_work/git_training/test (main)
+$ mkdir test3
+
+mezhuev@MacBook-Pro-Mezhuev ~/Desktop/home_work/git_training/test (main)
+$ cd test3
+
+mezhuev@MacBook-Pro-Mezhuev ~/Desktop/home_work/git_training/test/test3 (main)
+$ touch file1.txt file2.txt
+
+10) Remove the test3 folder
+mezhuev@MacBook-Pro-Mezhuev ~/Desktop/home_work/git_training/test/test3 (main)
+$ cd ..
+
+mezhuev@MacBook-Pro-Mezhuev ~/Desktop/home_work/git_training/test (main)
+$ rm -rf test3
+
+11) Create a test4 folder
+mezhuev@MacBook-Pro-Mezhuev ~/Desktop/home_work/git_training/test (main)
+$ mkdir test4
+
+12) Move files 1 and 3 to the test4 folder
+mezhuev@MacBook-Pro-Mezhuev ~/Desktop/home_work/git_training/test (main)
+$ mv test1/file1.txt test4
+
+mezhuev@MacBook-Pro-Mezhuev ~/Desktop/home_work/git_training/test (main)
+$ mv test1/file3.txt test4
+
+mezhuev@MacBook-Pro-Mezhuev ~/Desktop/home_work/git_training/test (main)
+$ cd test4
+
+13) Add three lines with the word "line" to file 1
+mezhuev@MacBook-Pro-Mezhuev ~/Desktop/home_work/git_training/test/test4 (main)
+$ echo line > file1.txt
+
+mezhuev@MacBook-Pro-Mezhuev ~/Desktop/home_work/git_training/test/test4 (main)
+$ echo line >> file1.txt
+
+mezhuev@MacBook-Pro-Mezhuev ~/Desktop/home_work/git_training/test/test4 (main)
+$ echo line >> file1.txt
+
+14) View file contents 1
+mezhuev@MacBook-Pro-Mezhuev ~/Desktop/home_work/git_training/test/test4 (main)
+$ cat file1.txt
+line
+line
+line
+
+15) Add 3 lines with line words to the file
+mezhuev@MacBook-Pro-Mezhuev ~/Desktop/home_work/git_training/test/test4 (main)
+$ echo line > file3.txt
+
+mezhuev@MacBook-Pro-Mezhuev ~/Desktop/home_work/git_training/test/test4 (main)
+$ echo line >> file3.txt
+
+mezhuev@MacBook-Pro-Mezhuev ~/Desktop/home_work/git_training/test/test4 (main)
+$ echo line >> file3.txt
+
+16) Review the contents of two files (1 and 3) at once
+mezhuev@MacBook-Pro-Mezhuev ~/Desktop/home_work/git_training/test/test4 (main)
+$ cat file1.txt file3.txt
+line
+line
+line
+line
+line
+line
+
+17) Use one of the editors to replace all lines
+mezhuev@MacBook-Pro-Mezhuev ~/Desktop/home_work/git_training/test/test4 (main)
+$ nano file1.txt
+
+mezhuev@MacBook-Pro-Mezhuev ~/Desktop/home_work/git_training/test/test4 (main)
+$ cat file1.txt
+create
+create
+create
