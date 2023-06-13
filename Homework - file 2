@@ -133,12 +133,12 @@ $ curl -X 'POST' \
   -H 'Content-Type: application/json' \
   -d '{
   "id": 2311,
-  "username": "Eric",
-  "firstName": "Eric",
+  "username": "John",
+  "firstName": "Johny",
   "lastName": "Adams",
-  "email": "manowar@gmail.com",
-  "password": "131313",
-  "phone": "5550001",
+  "email": "johny@gmail.com",
+  "password": "1313",
+  "phone": "55555",
   "userStatus": 1
 }'
 {"code":200,"type":"unknown","message":"2311"}
