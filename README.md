@@ -23,7 +23,8 @@ Task 1:
 - Review the contents of two files (1 and 3) at once
 - Use one of the editors to replace all lines
 
-- Task 2:
+Task 2:
+
 - Create test 3 Folder
 - Add three files 4, 5 and 6, each with row1, row2, row3, row4 lines
 - Find row2 string in file 5
